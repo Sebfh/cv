@@ -38,6 +38,15 @@
 	margin-top: -23px;
 	font-size: 12px;
 }
+@media (max-width: 480px){
+	.job-range {
+		float: none;
+		margin: 0px;
+		margin-left: 0px;
+		text-align: right;
+	}
+}
+
 @media (max-width: 767px){
 	.job-range {
 		float: right;

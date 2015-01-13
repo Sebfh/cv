@@ -26,6 +26,15 @@
 	margin-top: -27px;
 	font-size: 12px;
 }
+@media (max-width: 480px){
+	.education-range {
+		float: none;
+		margin: 0px;
+		margin-left: 0px;
+		text-align: right;
+	}
+}
+
 @media (max-width: 767px){
 	.education-range {
 		float: right;
