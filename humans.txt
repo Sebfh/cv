@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sebastiaan Hoejenbos -- @windandforrest
+
+# THANKS
+
+    You
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Modernizr, Bootstrap 3
