@@ -1,0 +1,17 @@
+.me {
+	img {
+		width: 144px;
+		float: left;
+		margin-right: 20px;
+		margin-top: 20px;
+		}
+	}
+.table.profile-table{
+	>tbody>tr>td{
+		border: 0;
+	}
+}
+
+address.profile-address{
+	margin-bottom: 0;
+}
