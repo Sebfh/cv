@@ -5,8 +5,20 @@
 		margin-right: 20px;
 		margin-top: 20px;
 	}
+
+	h2{
+		color: $primary-color;
+		margin-top: 0px;
+		font-size: 18px;
+	}
+
+	.me-name {
+		margin-bottom: 5px;
+	}
 }
-.table.profile-table{
+.table.profile-table {
+	margin-left: 20px;
+	font-size: 12px;
 	>tbody>tr>td{
 		border: 0;
 	}

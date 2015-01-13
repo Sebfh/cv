@@ -1,16 +1,63 @@
 .job-list {
-	border-left: 5px solid #333;
+	border-left: 5px solid $primary-color;
 	margin-left: 20px;
 
 	.job-experience {
-		margin-left: 10px;
+		margin-left: 30px;
 		margin-bottom: 40px;
+
+		&:before {
+			content: ' \25CF';
+			font-size: 25px;
+			margin-left: -40px;
+			margin-top: -10px;
+			float: left;
+			color: $primary-color;
+		}
+
+		.job-title {
+			color: $primary-color;
+		}
+
+		.job-company {
+			margin-bottom: 5px;
+		}
+
+		.job-description {
+			margin-top: 5px;
+		}
 	}
+
+	
 }
 .job-range {
 	float: left;
-	margin-left: -175px;
+	margin-left: -210px;
 	width: 150px;
 	text-align: right;
-	margin-top: -30px;
+	margin-top: -23px;
+	font-size: 12px;
 }
+@media (max-width: 767px){
+	.job-range {
+		float: right;
+	}
+} 
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.job-range {
+		float: right;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+	.job-range {
+		float: right;
+	}
+}
+
+@media (min-width: 1200px) {
+	.job-range {
+		float: left;
+	}
+}
+
