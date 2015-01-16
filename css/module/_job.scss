@@ -4,7 +4,7 @@
 
 	.job-experience {
 		margin-left: 30px;
-		margin-bottom: 40px;
+		margin-bottom: 50px;
 
 		&:before {
 			content: ' \25CF';
@@ -17,6 +17,9 @@
 
 		.job-title {
 			color: $primary-color;
+			font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-weight: 700;
+			text-transform: uppercase;
 		}
 
 		.job-company {

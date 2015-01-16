@@ -3,7 +3,7 @@
 		width: 144px;
 		float: left;
 		margin-right: 20px;
-		margin-top: -15px;
+		margin-top: -10px;
 		margin-left: -45px;
 	}
 
@@ -13,7 +13,8 @@
 		font-size: 18px;
 	}
 	.me-passion {
-		margin-left: 55px;
+		margin-left: 120px;
+		font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 	}
 
 	.me-name {
@@ -24,6 +25,11 @@
 		float:left;
 		margin-top: 20px;
 		margin-left: 55px;
+	}
+
+	.me-title {
+		margin-bottom: 5px;
+		text-transform: uppercase;
 	}
 }
 .table.profile-table {
