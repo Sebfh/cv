@@ -4,6 +4,7 @@
 		float: left;
 		margin-right: 20px;
 		margin-top: -15px;
+		margin-left: -45px;
 	}
 
 	h2{
@@ -26,6 +27,7 @@
 	}
 }
 .table.profile-table {
+	max-width: 345px;
 	margin-left: 20px;
 	font-size: 12px;
 	>tbody>tr>td{
